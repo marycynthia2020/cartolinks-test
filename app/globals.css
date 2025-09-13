@@ -1,7 +1,9 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
-
 body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
 }
