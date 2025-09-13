@@ -31,7 +31,7 @@ export default function RootLayout({
         className={`dark:bg-black ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider>
-          <div className="min-h-screen grid grid-rows-[auto_1fr_auto] max-w-[1440px] border mx-auto border-gray-300 dark:border-0 ">
+          <div className="min-h-screen grid grid-rows-[auto_1fr_auto] max-w-[1440px] mx-auto border border-gray-300 dark:border-0">
             <Navbar />
             {children}
             <Footer />

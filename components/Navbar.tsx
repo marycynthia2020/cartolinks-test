@@ -27,7 +27,7 @@ const Navbar = () => {
     <AiFillVideoCamera />,
   ];
   return (
-    <nav className=" w-full mb-8 lg:mb-16 py-3 px-5  flex items-center  justify-between ">
+    <nav className=" w-full  py-3 px-5   flex items-center  justify-between mb-8 lg:mb-14 ">
       <div className="w-full lg:w-auto flex items-center justify-between">
         <div className="flex gap-x-3 items-center">
           <Image
@@ -64,12 +64,12 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      {/* navigation */}
+
       <div className="hidden lg:flex items-center gap-11 p-5 rounded-2xl bg-[#f6f6f6] dark:bg-[#212121] dark:text-white">
         {icons.map((icon, index) => (
           <div
             key={index}
-            className="hover:p-4 hover:bg-white hover:rounded-xl hover:m-[-1rem] dark:hover:text-black"
+            className="hover:p-4 hover:bg-white hover:rounded-xl hover:m-[-1rem] dark:hover:text-black cursor-pointer"
           >
             {icon}
           </div>
